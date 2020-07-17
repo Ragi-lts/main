@@ -1,0 +1,48 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "アンケートのご協力をお願いします。",
+        "wrap": true,
+        "align": "center",
+        "size": "md"
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "type": "text",
+        "contents": [
+          {
+            "type": "span",
+            "text": "形式は、選択式です。\n所定の時間内に行ってください。"
+          }
+        ],
+        "wrap": true
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "postback",
+          "label": "回答する",
+          "data": "answer_anc"
+        },
+        "style": "primary",
+        "color": "#0067C0",
+        "margin": "md",
+        "height": "sm",
+        "gravity": "bottom"
+      }
+    ]
+  },
+  "size": "mega",
+  "styles": {
+    "hero": {
+      "separator": true
+    }
+  }
+}

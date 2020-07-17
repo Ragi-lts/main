@@ -1,0 +1,50 @@
+{
+  "type": "bubble",
+  "size": "giga",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "size": "lg",
+            "weight": "bold",
+            "align": "center",
+            "contents": [
+              {
+                "type": "span",
+                "text": "Q{num}."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "{BODY}"
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "下のボックスから選んでください。",
+        "style": "normal",
+        "gravity": "bottom",
+        "align": "center"
+      }
+    ]
+  },
+  "styles": {
+    "footer": {
+      "separator": true
+    }
+  }
+}

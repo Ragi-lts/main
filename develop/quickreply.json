@@ -1,0 +1,54 @@
+{
+    "type": "text",
+    "text": "選択してください",
+    "quickReply": {
+        "items": [
+            {
+                "type": "action",
+                "action": {
+                    "type": "camera",
+                    "label": "カメラ"
+                }
+            },
+            {
+                "type": "action",
+                "action": {
+                    "type": "cameraRoll",
+                    "label": "カメラロール"
+                }
+            },
+            {
+                "type": "action",
+                "action": {
+                    "type": "location",
+                    "label": "位置情報"
+                }
+            },
+            {
+                "type": "action",
+                "action": {
+                    "type": "postback",
+                    "label": "ポストバック",
+                    "data": "test"
+                }
+            },
+            {
+                "type": "action",
+                "action": {
+                    "type": "message",
+                    "label": "メッセージ",
+                    "text": "test"
+                }
+            },
+            {
+                "type": "action",
+                "action": {
+                    "type": "datetimepicker",
+                    "label": "日時選択",
+                    "data": "datetime",
+                    "mode": "datetime"
+                }
+            }
+        ]
+    }
+}
